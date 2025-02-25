@@ -1,0 +1,279 @@
+.container{
+    /* border: 5px solid rgb(212, 10, 175);
+    height: auto; */
+}
+.header{
+ /* border: 1px solid black; */
+    /* margin-top: 0; */
+    display: flex;
+    justify-content: space-between;
+    padding-top:10;
+    padding-left: 20px;
+}
+
+/* ----left---- */
+
+.bar{
+    height: 30px;
+    padding: 4px;
+ }
+
+.image {
+    padding-left: 10px;
+ }
+
+.left .image img{
+   width: 110px;
+  padding-top: 1px;
+padding-left: 10px;
+   }
+
+.left{
+    display: flex;
+    padding-top: 10px;
+}
+
+/* ----center---- */
+
+.center{
+    display: flex;
+/* border: 1px solid red;*/ 
+margin-top: 5px;
+ margin-bottom: 15px;
+ padding-bottom: 0%;
+}
+.center .mic {
+    margin-top: 4px;
+}
+
+.btn{
+   /*  border: 1px solid green; */
+    padding-bottom: 0;
+
+}
+.search input{
+    width:530px;
+    height: 48px;
+    padding-left: 22px;
+    /* border-color: rgb(227, 223, 223); */
+    border-radius: 20px 0px 0px 20px;
+    border: 1px solid rgb(227, 223, 223);
+    }
+
+.center .btn i{
+     border: 1px solid  rgb(222, 220, 220);
+    font-size:25px;
+      color: rgb(164, 164, 164);
+      background-color: rgb(243, 242, 242);
+     border-radius: 0px 20px 20px 0px;
+      padding: 22px;
+     }
+
+.center .mic{
+   /* border: 1px solid green; */
+   margin-left: 23px;
+   border-radius: 40px; 
+
+}
+
+.center .mic i{
+   /* border: 1px solid red; */
+   padding: 20px 15px;
+   background-color: rgb(243, 242, 242);
+   border-radius: 20px; 
+ }
+
+.center .mic i:hover{
+    background-color: rgb(211, 209, 209);
+}
+
+
+/* ----right---- */
+
+.right {
+    display: flex;
+    /* border: 2px solid blue; */
+    margin:  6px;
+    padding-left: 50px;
+    /* padding-top: 5px; */
+}
+
+.plus button i {
+    /* border: 2px solid red; */
+margin-left: 10px;
+ }
+  
+.plus button{
+    border-radius: 50px;
+    padding: 13px;
+    border: none;
+ }
+
+.bell{
+    /* border: 1px solid brown; */
+    margin-left: 30px;
+    }
+
+.bell button{
+    border-radius: 50px;
+    padding: 13px;
+    border: none;
+    /* border: 1px solid green; */
+  }
+
+.bell button:hover{
+background-color:rgb(211, 209, 209);
+  }
+
+.right .img{
+  margin-left: 20px;
+}
+
+.img{
+ 
+    /* border: 1px solid greenyellow; */
+}
+
+.img img{
+    width: 40px;
+    height: 42px;
+    border-radius: 50px;
+    padding: 3px;
+  }
+
+/* ----layout---- */
+
+.layout{
+    height: 1200px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+  }
+
+  /* ----side layout---- */
+
+.layout .side{
+    /* border: 1px solid green; */
+    height: 90vh;
+ }
+
+.layout .side:hover{
+    overflow: scroll;
+  }
+
+.layout .side ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+  }
+ 
+.layout .side ul li{
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+ 
+.layout .side ul li :hover{
+    background-color: rgb(243, 242, 242);
+ }
+
+.layout .side ul li a{
+    /* border: 1px solid yellow; */
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 5px;
+    color: black;
+    display: block;
+    border-radius: 10px;
+}
+
+.layout .main{
+    /* border: 1px solid black; */
+    height: 90vh;
+}
+
+.layout .side ul li i,img{
+    padding-right: 10px;
+    }
+
+.layout .side ul li img{
+    padding-top:2px;
+    }
+    
+.side ul li img a{
+    display: grid;
+}
+
+/* ----main layout---- */
+
+.main{
+    /* border: 3px solid red; */
+    height: auto;
+    width: 1250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin-top: 20px;
+    }
+
+    .content{
+        /* border: 1px solid red; */
+        height: fit-content;
+        
+    }
+  
+.content .image img{
+    width: 280px;
+    height: 170px;
+    border-radius: 25px;
+    /* border-radius: 1px solid red; */
+    /* margin-top: 20px; */
+}
+
+.content .image img:hover{
+    border-radius: 0px;
+}
+
+.content .image img {
+    /* border: 2px solid green; */
+   padding-left: 10px;
+   row-gap: 50px;
+}
+
+.topic{
+    /* border: 1px solid blue; */
+    /* border-width: 10px; */
+    /* padding: 10px; */
+  font-weight: 700;
+  font-size: 13px;
+  align-items: center;
+  padding-left: 21px;
+
+}
+
+.topic p{
+    /* border: 1px solid brown; */
+    width: 280px;
+    font-size:small;
+    margin-top: 5px;
+}
+
+.views{
+    /* border: 1px solid brown; */
+}
+
+.views p{
+    /* border: 1px solid greenyellow; */
+    color: rgb(97, 90, 90);
+    width: 280px;
+    font-size:small;
+ margin-top: 0%;
+    padding-left: 24px;
+}
+
+.main .image iframe{
+    width: 250px;
+    height: 200px;
+    
+}
+
+
